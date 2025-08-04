@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Generator</title>
+    <style>
+        canvas { border: 1px solid #ccc; margin: 10px; }
+        .icon-preview { display: inline-block; margin: 10px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>PWA Icon Generator</h1>
+    <p>This page generates the PWA icons. Open this in a browser and right-click to save each canvas as PNG.</p>
+    
+    <div id="icons"></div>
+
+    <script>
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        const iconsContainer = document.getElementById('icons');
+
+        sizes.forEach(size => {
+            const div = document.createElement('div');
+            div.className = 'icon-preview';
+            
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            canvas.id = `icon-${size}`;
+            
+            const ctx = canvas.getContext('2d');
+            
+            // Create gradient background
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#667eea');
+            gradient.addColorStop(1, '#764ba2');
+            
+            // Draw background circle
+            ctx.fillStyle = gradient;
+            ctx.beginPath();
+            ctx.arc(size/2, size/2, size/2 - 10, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Draw white border
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = 4;
+            ctx.stroke();
+            
+            // Draw Italy silhouette (simplified)
+            ctx.fillStyle = '#fff';
+            ctx.globalAlpha = 0.9;
+            ctx.beginPath();
+            
+            // Simplified Italy shape
+            const centerX = size / 2;
+            const centerY = size / 2;
+            const scale = size / 512;
+            
+            ctx.moveTo(centerX - 30 * scale, centerY - 80 * scale);
+            ctx.quadraticCurveTo(centerX + 20 * scale, centerY - 100 * scale, centerX + 50 * scale, centerY - 60 * scale);
+            ctx.lineTo(centerX + 60 * scale, centerY + 20 * scale);
+            ctx.quadraticCurveTo(centerX + 40 * scale, centerY + 80 * scale, centerX - 20 * scale, centerY + 100 * scale);
+            ctx.quadraticCurveTo(centerX - 60 * scale, centerY + 60 * scale, centerX - 50 * scale, centerY - 20 * scale);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Draw location markers
+            ctx.globalAlpha = 1;
+            const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FECA57'];
+            const markerSize = Math.max(3, size / 64);
+            
+            for (let i = 0; i < 5; i++) {
+                ctx.fillStyle = colors[i];
+                ctx.beginPath();
+                ctx.arc(
+                    centerX - 20 * scale + (i * 10 * scale),
+                    centerY - 40 * scale + (i * 20 * scale),
+                    markerSize,
+                    0,
+                    2 * Math.PI
+                );
+                ctx.fill();
+            }
+            
+            // Draw route line
+            ctx.strokeStyle = '#fff';
+            ctx.lineWidth = Math.max(1, size / 170);
+            ctx.globalAlpha = 0.8;
+            ctx.setLineDash([size/100, size/100]);
+            ctx.beginPath();
+            ctx.moveTo(centerX - 20 * scale, centerY - 40 * scale);
+            for (let i = 1; i < 5; i++) {
+                ctx.lineTo(
+                    centerX - 20 * scale + (i * 10 * scale),
+                    centerY - 40 * scale + (i * 20 * scale)
+                );
+            }
+            ctx.stroke();
+            ctx.setLineDash([]);
+            
+            // Draw text for larger icons
+            if (size >= 128) {
+                ctx.globalAlpha = 1;
+                ctx.fillStyle = '#fff';
+                ctx.font = `bold ${size/14}px Arial, sans-serif`;
+                ctx.textAlign = 'center';
+                ctx.fillText('ITALY', centerX, centerY + 60 * scale);
+                
+                if (size >= 192) {
+                    ctx.font = `${size/21}px Arial, sans-serif`;
+                    ctx.globalAlpha = 0.8;
+                    ctx.fillText('2025', centerX, centerY + 80 * scale);
+                }
+            }
+            
+            const label = document.createElement('p');
+            label.textContent = `${size}x${size}px`;
+            
+            div.appendChild(canvas);
+            div.appendChild(label);
+            iconsContainer.appendChild(div);
+            
+            // Add download functionality
+            canvas.addEventListener('click', () => {
+                const link = document.createElement('a');
+                link.download = `icon-${size}x${size}.png`;
+                link.href = canvas.toDataURL();
+                link.click();
+            });
+        });
+        
+        console.log('Icons generated! Click on each canvas to download the PNG file.');
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#667eea">
+    <title>Italy Summer 2025 - Trip Planner</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇮🇹 Italy Summer 2025</h1>
+            <p>Northern Italy Lakes & Dolomites Adventure</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="map">Map View</button>
+            <button class="tab-button" data-tab="timeline">Timeline</button>
+            <button class="tab-button" data-tab="itinerary">Itinerary</button>
+        </nav>
+
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search locations, activities..." />
+            <select id="filter-region">
+                <option value="">All Regions</option>
+                <option value="morcote">Lake Lugano (Morcote)</option>
+                <option value="pallanza">Lake Maggiore (Pallanza)</option>
+                <option value="sale-marasino">Lake Iseo (Sale Marasino)</option>
+                <option value="dolomites">Dolomites</option>
+            </select>
+            <select id="filter-date">
+                <option value="">All Days</option>
+            </select>
+        </div>
+
+        <main>
+            <!-- Map Tab -->
+            <div id="map-tab" class="tab-content active">
+                <div id="map" class="map-container"></div>
+                <div class="map-info">
+                    <div id="location-details" class="location-card">
+                        <h3>Select a location on the map</h3>
+                        <p>Click on any marker to see details about that part of your trip.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline Tab -->
+            <div id="timeline-tab" class="tab-content">
+                <div id="timeline" class="timeline-container"></div>
+            </div>
+
+            <!-- Itinerary Tab -->
+            <div id="itinerary-tab" class="tab-content">
+                <div id="itinerary-list" class="itinerary-container"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Notes Drawer -->
+    <div id="notes-drawer" class="notes-drawer">
+        <div class="notes-drawer-header">
+            <h3 id="notes-drawer-title">Location Notes</h3>
+            <button id="close-notes-drawer" class="close-drawer-btn">&times;</button>
+        </div>
+        <div class="notes-drawer-content">
+            <div class="notes-section">
+                <label for="location-notes">Notes:</label>
+                <textarea id="location-notes" placeholder="Add your notes about this location..."></textarea>
+            </div>
+            <div class="urls-section">
+                <label for="location-urls">Useful URLs:</label>
+                <div id="url-list" class="url-list"></div>
+                <div class="add-url-form">
+                    <input type="text" id="new-url-title" placeholder="Link title">
+                    <input type="url" id="new-url" placeholder="https://...">
+                    <button id="add-url-btn">Add URL</button>
+                </div>
+            </div>
+            <div class="notes-actions">
+                <button id="save-notes-btn" class="save-btn">Save Notes</button>
+                <button id="clear-notes-btn" class="clear-btn">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Drawer Overlay -->
+    <div id="drawer-overlay" class="drawer-overlay"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
