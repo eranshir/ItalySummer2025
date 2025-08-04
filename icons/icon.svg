@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#gradient)" stroke="#fff" stroke-width="32"/>
+  
+  <!-- Italy silhouette -->
+  <path d="M200 120 C220 110, 240 115, 250 130 C260 120, 280 125, 290 140 C300 130, 320 135, 330 150 L340 170 C350 180, 350 200, 340 220 L330 240 C340 250, 345 270, 340 290 L335 310 C340 320, 340 340, 330 360 L320 380 C315 390, 310 400, 300 410 L280 420 C270 425, 260 420, 250 415 L240 410 C230 415, 220 420, 210 415 L200 410 C190 415, 180 420, 170 415 L160 400 C150 390, 145 380, 150 370 L155 350 C150 340, 145 330, 150 320 L155 300 C150 290, 145 280, 150 270 L155 250 C150 240, 145 230, 150 220 L155 200 C150 190, 145 180, 150 170 L155 150 C160 140, 170 130, 180 125 Z" fill="#fff" opacity="0.9"/>
+  
+  <!-- Location markers -->
+  <circle cx="220" cy="180" r="8" fill="#FF6B6B"/>
+  <circle cx="240" cy="220" r="8" fill="#4ECDC4"/>
+  <circle cx="260" cy="260" r="8" fill="#45B7D1"/>
+  <circle cx="280" cy="300" r="8" fill="#96CEB4"/>
+  <circle cx="300" cy="340" r="8" fill="#FECA57"/>
+  
+  <!-- Route lines -->
+  <path d="M220 180 L240 220 L260 260 L280 300 L300 340" stroke="#fff" stroke-width="3" fill="none" opacity="0.8" stroke-dasharray="5,5"/>
+  
+  <!-- Text -->
+  <text x="256" y="450" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="36" font-weight="bold">ITALY</text>
+  <text x="256" y="480" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" opacity="0.8">2025</text>
+</svg>
