@@ -20,39 +20,43 @@ Date,Day,Location,Time Range,Activity,Notes,Coordinates,Google Maps URL,Sunrise,
 2025-08-25,Mon,Morcote,19:00-21:00,Dinner in Morcote,,"45.92390, 8.91810",https://www.google.com/maps/place/Morcote,06:51,19:50
 2025-08-26,Tue,Morcote,09:00-09:30,Breakfast,,"45.92390, 8.91810",https://www.google.com/maps/place/Morcote,06:52,19:48
 2025-08-26,Tue,Morcote,09:30-10:30,Scherrer Park & subtropical gardens,Wander through Scherrer Park with subtropical plants and sculptures before departure,"45.92390, 8.91810",https://www.google.com/maps/place/Morcote,06:52,19:48
-2025-08-26,Tue,Morcote -> Pallanza,10:30-11:00,Check-out & departure,Check out and depart for Pallanza,"45.93560, 8.54640",https://www.google.com/maps/place/Morcote+-%3E+Pallanza,06:52,19:48
-2025-08-26,Tue,Drive to Pallanza,11:00-13:30,Drive to Pallanza (Lake Maggiore),Approx 2.5 hr; enjoy scenic border crossing,"45.93560, 8.54640",https://www.google.com/maps/place/Drive+to+Pallanza,06:52,19:48
-2025-08-26,Tue,Pallanza,13:30-14:00,Check in to accommodation,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:52,19:48
-2025-08-26,Tue,Pallanza,14:00-15:30,Lunch on lakefront promenade,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:52,19:48
-2025-08-26,Tue,Pallanza,15:30-17:00,Lakefront promenade stroll,Walk along elegant promenade with views of Borromean Islands Poi.html#:~:text=situation on the Borromean Gulf of the municipality of Verbania,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:52,19:48
-2025-08-26,Tue,Pallanza historic centre,17:00-18:30,Explore historic centre,"Visit Church of San Leonardo, 19th‑century town hall with pink granite pillars, and Villa Giulia","45.93560, 8.54640",https://www.google.com/maps/place/Pallanza+historic+centre,06:52,19:48
-2025-08-26,Tue,Villa San Remigio,18:30-20:00,Visit Villa San Remigio gardens,"Visit gardens created by Marquis Silvio and Sophia with themed gardens like Joy, Sadness and Hours; appointments required","45.93370, 8.55060",https://www.google.com/maps/place/Villa+San+Remigio,06:52,19:48
-2025-08-26,Tue,Pallanza,20:00-21:30,Dinner,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:52,19:48
-2025-08-27,Wed,Borromean Islands,09:00-09:30,Boat to Isola Bella,Take ferry from Pallanza to Isola Bella,"45.93560, 8.54640",https://www.google.com/maps/place/Borromean+Islands,06:54,19:46
-2025-08-27,Wed,Isola Bella,09:30-11:00,Palace & gardens tour,Visit Baroque palace and terraced gardens with white peacocks,"45.89580, 8.53580",https://www.google.com/maps/place/Isola+Bella,06:54,19:46
-2025-08-27,Wed,Isola Bella -> Isola dei Pescatori,11:00-11:15,Boat to Isola dei Pescatori,Short ferry ride between islands (15 min),"45.90080, 8.54330",https://www.google.com/maps/place/Isola+Bella+-%3E+Isola+dei+Pescatori,06:54,19:46
-2025-08-27,Wed,Isola dei Pescatori,11:15-12:15,Explore Fishermen's Island and lunch,"Wander narrow lanes, shops and have lunch in seafood restaurant","45.90080, 8.54330",https://www.google.com/maps/place/Isola+dei+Pescatori,06:54,19:46
-2025-08-27,Wed,Isola dei Pescatori -> Isola Madre,12:15-12:30,Boat to Isola Madre,Ferry ride to largest island (15 min),"45.90660, 8.52890",https://www.google.com/maps/place/Isola+dei+Pescatori+-%3E+Isola+Madre,06:54,19:46
-2025-08-27,Wed,Isola Madre,12:30-13:45,Visit botanical gardens and palace,Explore exotic plants and 16th‑century palace,"45.90660, 8.52890",https://www.google.com/maps/place/Isola+Madre,06:54,19:46
-2025-08-27,Wed,Isola Madre -> Pallanza,13:45-14:15,Boat back to Pallanza,Return ferry to mainland (30 min),"45.93560, 8.54640",https://www.google.com/maps/place/Isola+Madre+-%3E+Pallanza,06:54,19:46
-2025-08-27,Wed,Pallanza,14:15-18:30,Free time & rest,Relax after island hopping; explore Pallanza or rest at accommodation,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:54,19:46
-2025-08-27,Wed,Pallanza,19:00-21:00,Dinner,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:54,19:46
-2025-08-28,Thu,Pallanza,09:00-10:00,Breakfast,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:55,19:43
-2025-08-28,Thu,Lake Maggiore surroundings,10:00-14:30,Hike or bike along lakeside to Fondotoce or Intra,,"45.95570, 8.54640",https://www.google.com/maps/place/Lake+Maggiore+surroundings,06:55,19:43
+2025-08-26,Tue,Morcote -> Orta San Giulio,10:30-11:00,Check-out & departure,Check out and depart for Orta San Giulio,"45.79590, 8.40540",https://www.google.com/maps/place/Morcote+-%3E+Orta+San+Giulio,06:52,19:48
+2025-08-26,Tue,Drive to Orta San Giulio,11:00-13:30,Drive to Orta San Giulio (Lake Orta),Approx 2.5 hr; enjoy scenic border crossing,"45.79590, 8.40540",https://www.google.com/maps/place/Drive+to+Orta+San+Giulio,06:52,19:48
+2025-08-26,Tue,Orta San Giulio,13:30-14:00,Check in to accommodation,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:52,19:48
+2025-08-26,Tue,Orta San Giulio,14:00-15:30,Lunch on lakefront promenade,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:52,19:48
+2025-08-26,Tue,Orta San Giulio,15:30-17:00,Lakefront promenade stroll,Walk along charming lakefront promenade of Lake Orta,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:52,19:48
+2025-08-26,Tue,Orta San Giulio historic centre,17:00-18:30,Explore historic centre,Visit medieval streets and historic buildings of Orta San Giulio,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio+historic+centre,06:52,19:48
+2025-08-26,Tue,Sacro Monte di Orta,18:30-20:00,Visit Sacro Monte di Orta,UNESCO World Heritage site with 20 chapels depicting St. Francis; woodland walk with lake views,"45.80420, 8.41330",https://www.google.com/maps/place/Sacro+Monte+di+Orta,06:52,19:48
+2025-08-26,Tue,Orta San Giulio,20:00-21:30,Dinner,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:52,19:48
+2025-08-27,Wed,Orta -> Stresa,09:00-09:30,Drive to Stresa,Drive from Orta San Giulio to Stresa for Borromean Islands ferry,"45.88450, 8.53640",https://www.google.com/maps/place/Orta+-%3E+Stresa,06:54,19:46
+2025-08-27,Wed,Stresa -> Isola Bella,09:30-10:00,Boat to Isola Bella,Take ferry from Stresa to Isola Bella,"45.89580, 8.53580",https://www.google.com/maps/place/Stresa+-%3E+Isola+Bella,06:54,19:46
+2025-08-27,Wed,Isola Bella,10:00-11:30,Palace & gardens tour,Visit Baroque palace and terraced gardens with white peacocks,"45.89580, 8.53580",https://www.google.com/maps/place/Isola+Bella,06:54,19:46
+2025-08-27,Wed,Isola Bella -> Isola dei Pescatori,11:30-11:45,Boat to Isola dei Pescatori,Short ferry ride between islands (15 min),"45.90080, 8.54330",https://www.google.com/maps/place/Isola+Bella+-%3E+Isola+dei+Pescatori,06:54,19:46
+2025-08-27,Wed,Isola dei Pescatori,11:45-12:45,Explore Fishermen's Island and lunch,"Wander narrow lanes, shops and have lunch in seafood restaurant","45.90080, 8.54330",https://www.google.com/maps/place/Isola+dei+Pescatori,06:54,19:46
+2025-08-27,Wed,Isola dei Pescatori -> Isola Madre,12:45-13:00,Boat to Isola Madre,Ferry ride to largest island (15 min),"45.90660, 8.52890",https://www.google.com/maps/place/Isola+dei+Pescatori+-%3E+Isola+Madre,06:54,19:46
+2025-08-27,Wed,Isola Madre,13:00-14:15,Visit botanical gardens and palace,Explore exotic plants and 16th‑century palace,"45.90660, 8.52890",https://www.google.com/maps/place/Isola+Madre,06:54,19:46
+2025-08-27,Wed,Isola Madre -> Stresa,14:15-14:45,Boat back to Stresa,Return ferry to Stresa (30 min),"45.88450, 8.53640",https://www.google.com/maps/place/Isola+Madre+-%3E+Stresa,06:54,19:46
+2025-08-27,Wed,Stresa -> Orta San Giulio,14:45-15:30,Drive back to Orta,Return to accommodation in Orta San Giulio,"45.79590, 8.40540",https://www.google.com/maps/place/Stresa+-%3E+Orta+San+Giulio,06:54,19:46
+2025-08-27,Wed,Orta San Giulio,15:30-19:00,Free time & rest,Relax after island hopping; explore Orta San Giulio or rest at accommodation,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:54,19:46
+2025-08-27,Wed,Orta San Giulio,19:00-21:00,Dinner,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:54,19:46
+2025-08-28,Thu,Orta San Giulio,09:00-10:00,Breakfast,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:55,19:43
+2025-08-28,Thu,Orta -> Lake Maggiore,10:00-10:45,Drive to Lake Maggiore,Drive from Orta San Giulio to Lake Maggiore area,"45.95570, 8.54640",https://www.google.com/maps/place/Orta+-%3E+Lake+Maggiore,06:55,19:43
+2025-08-28,Thu,Lake Maggiore surroundings,10:45-14:30,Hike or bike along lakeside to Fondotoce or Intra,,"45.95570, 8.54640",https://www.google.com/maps/place/Lake+Maggiore+surroundings,06:55,19:43
 2025-08-28,Thu,Intra,14:30-15:30,Lunch in Intra,,"45.92510, 8.56330",https://www.google.com/maps/place/Intra,06:55,19:43
 2025-08-28,Thu,Villa Taranto gardens,15:30-17:30,Visit Villa Taranto botanical gardens,Walk 7 km of paths through gardens created by Captain Neil McEacharn in 1931; open 8:30‑18:30,"45.93520, 8.54680",https://www.google.com/maps/place/Villa+Taranto+gardens,06:55,19:43
-2025-08-28,Thu,Pallanza,17:30-18:30,Free time,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:55,19:43
-2025-08-28,Thu,Pallanza,19:00-21:00,Dinner,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:55,19:43
-2025-08-29,Fri,Pallanza,09:00-10:00,Breakfast,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:57,19:41
-2025-08-29,Fri,Pallanza -> Orta San Giulio,10:00-10:45,Drive to Orta San Giulio,Direct drive to Lake Orta (~45 min),"45.79590, 8.40540",https://www.google.com/maps/place/Pallanza+-%3E+Orta+San+Giulio,06:57,19:41
+2025-08-28,Thu,Villa Taranto -> Orta,17:30-18:15,Drive back to Orta,Return to accommodation in Orta San Giulio,"45.79590, 8.40540",https://www.google.com/maps/place/Villa+Taranto+-%3E+Orta,06:55,19:43
+2025-08-28,Thu,Orta San Giulio,18:15-19:00,Free time,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:55,19:43
+2025-08-28,Thu,Orta San Giulio,19:00-21:00,Dinner,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:55,19:43
+2025-08-29,Fri,Orta San Giulio,09:00-10:00,Breakfast,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:57,19:41
+2025-08-29,Fri,Orta San Giulio,10:00-10:45,Explore Orta San Giulio,Since we're staying in Orta San Giulio no drive needed; start exploring the town,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:57,19:41
 2025-08-29,Fri,Orta San Giulio,10:45-12:30,Explore Orta San Giulio town,Stroll medieval streets and lakefront promenade,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:57,19:41
 2025-08-29,Fri,Isola San Giulio,12:30-14:00,Boat to Isola San Giulio,Ferry to island and visit basilica and monastery; island of silence and meditation,"45.79780, 8.40250",https://www.google.com/maps/place/Isola+San+Giulio,06:57,19:41
 2025-08-29,Fri,Orta San Giulio,14:00-15:00,Lunch in Orta,Lakeside restaurant lunch,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:57,19:41
 2025-08-29,Fri,Sacro Monte di Orta,15:00-16:30,Visit Sacro Monte di Orta,UNESCO World Heritage site with 20 chapels depicting St. Francis; woodland walk with lake views,"45.80420, 8.41330",https://www.google.com/maps/place/Sacro+Monte+di+Orta,06:57,19:41
-2025-08-29,Fri,Orta San Giulio -> Pallanza,16:30-17:15,Drive back to Pallanza,Return to accommodation,"45.93560, 8.54640",https://www.google.com/maps/place/Orta+San+Giulio+-%3E+Pallanza,06:57,19:41
-2025-08-29,Fri,Pallanza,19:00-21:00,Dinner & leisure,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:57,19:41
-2025-08-30,Sat,Pallanza,09:00-10:00,Breakfast,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:58,19:38
-2025-08-30,Sat,Pallanza,10:00-10:30,Check-out & departure,,"45.93560, 8.54640",https://www.google.com/maps/place/Pallanza,06:58,19:38
+2025-08-29,Fri,Orta San Giulio,16:30-17:15,Return to accommodation,Walk back to accommodation in Orta San Giulio,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:57,19:41
+2025-08-29,Fri,Orta San Giulio,19:00-21:00,Dinner & leisure,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:57,19:41
+2025-08-30,Sat,Orta San Giulio,09:00-10:00,Breakfast,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:58,19:38
+2025-08-30,Sat,Orta San Giulio,10:00-10:30,Check-out & departure,,"45.79590, 8.40540",https://www.google.com/maps/place/Orta+San+Giulio,06:58,19:38
 2025-08-30,Sat,Angera Castle,11:00-13:00,Visit Rocca di Angera,Medieval castle on Lake Maggiore with frescoes and doll museum; great lake views,"45.77690, 8.56220",https://www.google.com/maps/place/Angera+Castle,06:58,19:38
 2025-08-30,Sat,Drive to Bergamo,13:00-16:30,Drive to Bergamo with lunch stop,3.5 hour drive via A8/A4; stop for lunch at roadside restaurant or town along the way,"45.69840, 9.67730",https://www.google.com/maps/place/Drive+to+Bergamo,06:58,19:38
 2025-08-30,Sat,Bergamo Airport,16:30-18:00,Wait for daughters & explore Bergamo,Pick up daughters at 18:00; explore Bergamo Città Alta if time permits,"45.6739, 9.7043",https://www.google.com/maps/place/Bergamo+Airport,06:58,19:38
